@@ -64,7 +64,3 @@ resource "aws_volume_attachment" "opt_volume_attach" {
   volume_id   = "${aws_ebs_volume.opt_volume.id}"
   instance_id = "${aws_instance.test_instance.id}"
 }
-
-output "public_ip" {
-  value = "${aws_instance.test_instance.public_ip}"
-}
