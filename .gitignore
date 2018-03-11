@@ -1,0 +1,6 @@
+# terraform modules
+**/.terraform
+
+# terraform state files
+**/*.tfstate
+**/*.tfstate.backup
